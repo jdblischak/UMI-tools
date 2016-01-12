@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 cgat_script_template.py - template for CGAT scripts
 ====================================================
@@ -88,9 +90,9 @@ Command line options
 
 import sys
 
-import CGAT.Experiment as E
-import CGAT.Fastq as Fastq
-import CGAT.IOTools as IOTools
+import Experiment as E
+import Fastq as Fastq
+import IOTools as IOTools
 
 
 def addUMItoIdentifier(read, UMI):

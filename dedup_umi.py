@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 '''
 DedupUMI.py - Deduplicate reads that are coded with a UMI
 =========================================================
@@ -164,8 +166,8 @@ Command line options
 
 import sys
 import pysam
-import CGAT.Experiment as E
-import CGAT.IOTools as IOTools
+import Experiment as E
+import IOTools as IOTools
 import random
 import collections
 import itertools

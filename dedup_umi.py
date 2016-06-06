@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 '''
 DedupUMI.py - Deduplicate reads that are coded with a UMI
